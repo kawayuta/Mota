@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{3A77716B-1B8B-0F46-B5DB-E6CF820EB5CE}") = "flash_rails_-unity-", "Assembly-CSharp.csproj", "{8B044372-C3F5-5660-91C2-2E1D6302CAA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B044372-C3F5-5660-91C2-2E1D6302CAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B044372-C3F5-5660-91C2-2E1D6302CAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B044372-C3F5-5660-91C2-2E1D6302CAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B044372-C3F5-5660-91C2-2E1D6302CAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

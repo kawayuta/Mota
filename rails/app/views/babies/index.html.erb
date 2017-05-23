@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Babies</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @babies.each do |baby| %>
+      <tr>
+        <td><%= baby.nota_type%></td>
+        <td><%= baby.team_1 %></td>
+        <td><%= baby.team_2 %></td>
+        <td><%= baby.team_3 %></td>
+        <td><%= baby.team_4 %></td>
+        <td><%= baby.nota_type%></td>
+        <td><%= baby.start_1 %></td>
+        <td><%= baby.start_2 %></td>
+        <td><%= baby.start_3 %></td>
+        <td><%= baby.start_4 %></td>
+        <td><%= link_to 'Show', baby %></td>
+        <td><%= link_to 'Edit', edit_baby_path(baby) %></td>
+        <td><%= link_to 'Destroy', baby, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Baby', new_baby_path %>

@@ -1,0 +1,15 @@
+current directory: /Users/216q013/Workspace/rails/meshapp/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/Users/216q013/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20170419-10172-1akid9j.rb extconf.rb
+creating Makefile
+
+current directory: /Users/216q013/Workspace/rails/meshapp/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /Users/216q013/Workspace/rails/meshapp/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+
+current directory: /Users/216q013/Workspace/rails/meshapp/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20170419-10172-1g35elc/bindex
