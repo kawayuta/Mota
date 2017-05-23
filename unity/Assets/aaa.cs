@@ -52,7 +52,6 @@ public class aaa : MonoBehaviour {
 	public MovieTexture blu_fish;
 	public MovieTexture blu_umbrella;
 
-
 	public GameObject Cube;
 	public GameObject Sphere;
 	public GameObject Torus;
@@ -97,7 +96,7 @@ public class aaa : MonoBehaviour {
 	}
 
 	private void onTimer() {
-		StartCoroutine(Get("http://192.168.11.3:3000/babies/1.json"));
+		StartCoroutine(Get("http://192.168.132.133:3000/babies/1.json"));
 
 	}
 
@@ -128,10 +127,10 @@ public class aaa : MonoBehaviour {
 			start.team_3 = (bool)jsonParser ["start_3"];
 			start.team_4 = (bool)jsonParser ["start_4"];
 
-//			Debug.Log (start.team_1);
-//			Debug.Log (start.team_2);
-//			Debug.Log (start.team_3);
-//			Debug.Log (start.team_4);
+		Debug.Log (start.team_1);
+		Debug.Log (start.team_2);
+		Debug.Log (start.team_3);
+		Debug.Log (start.team_4);
 
 
 			if (start.team_1 == true && start_check == false && end_check == false) {
