@@ -26,7 +26,7 @@
 				start_status = true;
 				removeChild(start_button);
 				var request:URLRequest = new URLRequest();
-		request.url = "http://192.168.122.143:3000/babies.json";
+		request.url = "http://192.168.132.133:3000/babies.json";
 		request.contentType = "multipart/form-data";
 		request.method = URLRequestMethod.POST;
 						
